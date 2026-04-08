@@ -10,7 +10,9 @@ public class tempWater {
             for (int j = 1; temp < 4 && temp > 10; j++) {
                 System.out.println("Digite a temperatura: ");
                 temp = teclado.nextDouble();
-            } //depois eu completo
+            } double soma += temp;
+            double media = soma / 12;
+            System.out.println("A média de temperatura de hoje é " + media + " graus Celsius");
         }
 
         teclado.close();
