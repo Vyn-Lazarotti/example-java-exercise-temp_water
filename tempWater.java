@@ -4,7 +4,7 @@ public class tempWater {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        for(int i = 0; i < 13; i++) {
+        for(int i = 0; i < 12; i++) {
             System.out.println("Digite a temperatura: ");
             double temp = teclado.nextDouble();
             for (int j = 1; temp < 4 && temp > 10; j++) {
